@@ -26,9 +26,8 @@ func parse() {
 	s5 := strconv.FormatInt(123, 2)
 	fmt.Println(s5)
 
-
-	s6 := bits.Len(uint(10))
 	//无符号整数二进制长度, output : 4
+	s6 := bits.Len(uint(10))
 	fmt.Println(s6)
 }
 
